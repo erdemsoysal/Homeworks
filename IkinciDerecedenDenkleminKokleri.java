@@ -11,11 +11,11 @@ public class IkinciDerecedenDenklemKokuBulma {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Lütfen a sayısını giriniz: ");
-		a = scan.nextInt();
+		a = scan.nextDouble();
 		System.out.println("Lütfen b sayısını giriniz: ");
-		b = scan.nextInt();
+		b = scan.nextDouble();
 		System.out.println("Lütfen c sayısını giriniz: ");
-		c = scan.nextInt();
+		c = scan.nextDouble();
 		
 		delta = (b*b) - (4*a*c);
 		System.out.println("delta = " + delta);
